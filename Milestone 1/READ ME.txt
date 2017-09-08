@@ -1,0 +1,12 @@
+Group Members: 
+Jordan Riley - UML
+Trevor Moore - UML
+Antonio Jabrail - Storyboard
+
+Description of Deliverables: 
+
+UML of Dispenser Class - Table breakdown of attributes/methods of Dispenser
+UML of Product Class - Table breakdown of attributes/methods of Product
+Storyboard - Diagram of overall Flow of application
+
+
