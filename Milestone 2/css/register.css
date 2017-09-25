@@ -1,0 +1,66 @@
+body {
+    font-family: "Roboto","Helvetica Neue",Verdana,Arial,sans-serif;
+}
+.create-account form {
+    width: 500px;
+}
+.create-account h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    border-bottom: 1px solid #EDEDED;
+    padding-bottom: 3px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.create-account ul {
+    list-style-type: none;
+}
+
+.create-account li {
+    margin: 10px 0;
+}
+
+.inputfield {
+    font-size: 15px;
+    border: 1px solid #C0C0C0;
+    background: #FFF;
+    height: 30px;
+    padding: 0 8px;
+    width: 365px;
+}
+
+.create-account label {
+    color: #636363;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.create-account label em {
+    color: red;
+}
+
+.create-account.inputfield {
+    font-size: 15px;
+}
+
+.create-account #firstname-validation, #lastname-validation,
+#email-validation, #password-validation, #password2-validation {
+    color: red;
+    font-size: 13px;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+}
+
+.register-text {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+
+
