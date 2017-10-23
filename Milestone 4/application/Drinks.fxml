@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="CENTER" prefHeight="331.0" prefWidth="529.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="109.0" minWidth="10.0" prefWidth="109.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="395.0" minWidth="10.0" prefWidth="324.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="168.0" minWidth="10.0" prefWidth="95.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="134.0" minHeight="10.0" prefHeight="126.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="114.0" minHeight="10.0" prefHeight="101.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="122.0" minHeight="10.0" prefHeight="104.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="122.0" minHeight="10.0" prefHeight="104.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="122.0" minHeight="10.0" prefHeight="104.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="53.0" prefWidth="406.0" text="Drinks" textAlignment="CENTER" textFill="#9354c3" GridPane.columnIndex="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label text="Click on a drink below to purchase" translateX="70.0" translateY="50.0" GridPane.columnIndex="1" />
+      <Button mnemonicParsing="false" onAction="#buyTea" prefHeight="26.0" prefWidth="325.0" text="Tea: $3" translateY="-10.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Button mnemonicParsing="false" onAction="#buyWater" prefHeight="26.0" prefWidth="325.0" text="Water: $2" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Button mnemonicParsing="false" onAction="#buySoda" prefHeight="26.0" prefWidth="325.0" text="Soda: $4" translateY="-5.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#backPress" prefHeight="26.0" prefWidth="57.0" text="&lt; Back" translateX="20.0" />
+      <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#donePress" prefHeight="26.0" prefWidth="57.0" text="Done" translateX="20.0" GridPane.columnIndex="2" />
+      <ImageView fitHeight="107.0" fitWidth="96.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+         <image>
+            <Image url="@water.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="107.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" scaleX="1.2" translateX="30.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+         <image>
+            <Image url="@soda.png" />
+         </image>
+      </ImageView>
+   </children>
+</GridPane>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="CENTER" prefHeight="331.0" prefWidth="529.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="109.0" minWidth="10.0" prefWidth="109.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="395.0" minWidth="10.0" prefWidth="324.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="168.0" minWidth="10.0" prefWidth="95.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="134.0" minHeight="10.0" prefHeight="126.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="114.0" minHeight="10.0" prefHeight="101.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="114.0" minHeight="10.0" prefHeight="101.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="122.0" minHeight="10.0" prefHeight="104.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="122.0" minHeight="10.0" prefHeight="104.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="122.0" minHeight="10.0" prefHeight="104.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="122.0" minHeight="10.0" prefHeight="104.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="122.0" minHeight="10.0" prefHeight="104.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="122.0" minHeight="10.0" prefHeight="104.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="122.0" minHeight="10.0" prefHeight="104.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="122.0" minHeight="10.0" prefHeight="104.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="53.0" prefWidth="406.0" text="Checkout" textAlignment="CENTER" textFill="#9354c3" GridPane.columnIndex="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label text="Below is a list of all purchased products" translateX="60.0" translateY="50.0" GridPane.columnIndex="1" />
+      <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#backPress" prefHeight="26.0" prefWidth="57.0" text="&lt; Back" translateX="20.0" />
+      <Label fx:id="totalLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="328.0" text="Total: " translateY="-10.0" GridPane.columnIndex="1" GridPane.rowIndex="10">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <TableView fx:id="table" minHeight="-Infinity" prefHeight="158.0" prefWidth="325.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+        <columns>
+          <TableColumn fx:id="name" prefWidth="236.0" text="Product" />
+          <TableColumn fx:id="price" prefWidth="88.0" text="Price" />
+        </columns>
+      </TableView>
+   </children>
+</GridPane>
