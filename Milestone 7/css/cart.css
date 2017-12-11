@@ -1,0 +1,71 @@
+.cart {
+    width: 800px;
+    background-color: black;
+    opacity: .8;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.total {
+    color: lightgreen;
+    font-size: 20px;
+}
+
+
+.center {
+    padding-bottom: 20px;
+}
+
+.cart ul {
+    list-style: none;
+}
+
+
+table {
+    border-collapse:separate;
+    border-spacing:0 5px;
+    padding: 10px;
+    margin: 0 auto;
+
+
+}
+div.line
+{
+    height: 1px;
+    width: 100%;
+    background-color: white;
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+td {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+
+
+tr {
+    text-align: center;
+    color: white;
+
+
+}
+
+
+th {
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.total {
+
+}

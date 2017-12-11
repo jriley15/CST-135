@@ -1,0 +1,20 @@
+
+.product {
+    width: 500px;
+    background-color: black;
+    opacity: .8;
+    padding: 20px;
+    position: relative;
+
+}
+
+.product_info {
+    float: left;
+    padding: 10px;
+}
+
+
+.purchase_info {
+    padding: 10px;
+}
+

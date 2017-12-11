@@ -1,0 +1,22 @@
+ul.products li {
+    width: 220px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+
+}
+
+
+.product {
+    background-color: black;
+    opacity: .8;
+    padding: 10px;
+
+}
+
+
+ul.products {
+
+    width: 80%;
+}
+

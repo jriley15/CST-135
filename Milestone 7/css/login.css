@@ -1,0 +1,68 @@
+.login {
+    width: 500px;
+
+
+}
+
+.login form {
+
+
+}
+
+.login h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+
+}
+
+.login ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.login li {
+    margin: 10px 0;
+
+}
+
+.inputfield {
+    font-size: 15px;
+    border: 1px solid #C0C0C0;
+    background: #FFF;
+    height: 30px;
+    padding: 0 8px;
+    width: 365px;
+}
+
+.login label {
+    color: #636363;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.login label em {
+    color: red;
+}
+
+.login.inputfield {
+    font-size: 15px;
+}
+
+.login #firstname-validation, #lastname-validation,
+#email-validation, #password-validation {
+    color: red;
+    font-size: 13px;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+}
+
+.register-text {
+    margin-top: 20px;
+    font-size: 12px;
+}

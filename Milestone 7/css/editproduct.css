@@ -1,0 +1,70 @@
+.editProduct td {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+
+.editProduct {
+    float: left;
+}
+
+.addProduct {
+    padding-top: 1px;
+    float: right;
+}
+
+.addProduct table {
+    padding-top: 4px;
+
+}
+
+.addProduct td {
+    text-align: left;
+
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+form input[type="text"] {
+    width: 100%;
+}
+
+
+.productWrapper {
+
+    display: inline-block;
+    width: 88%;
+    padding: 10px;
+    background-color: black;
+    opacity: .8;
+}
+
+
+.editProduct table {
+    border-collapse:separate;
+    border-spacing:0 5px;
+
+
+
+}
+
+
+
+
+tr {
+    text-align: center;
+    color: white;
+
+
+}
+
+
+th {
+
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
